@@ -1,0 +1,41 @@
+{
+  "name": "music-lounge",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/main/index.js",
+  "scripts": {
+    "dev": "yarn -p dev:main dev:electron",
+    "dev:main": "cross-env NODE_ENV=development tsc -p src/main/tsconfig.json",
+    "dev:electron": "cross-env NODE_ENV=development electron .",
+    "dev:renderer": "cross-env NODE_ENV=development nuxt src/renderer",
+    "build": "yarn build:main build:renderer build:electron",
+    "build:main": "cross-env NODE_ENV=production tsc -p src/main/tsconfig.json",
+    "build:renderer": "cross-env NODE_ENV=production nuxt generate src/renderer",
+    "build:electron": "cross-env NODE_ENV=production electron-builder",
+    "build:all": "yarn build --mwl",
+    "build:win": "yarn build --win",
+    "build:mac": "yarn build --mac",
+    "build:linux": "yarn build --linux",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
+    "lint": "yarn lint:js lint:style",
+    "test": "jest",
+    "clean": "yarn clean:build clean:dist"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@nuxt/types": "2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "cross-env": "^7.0.3",
+    "electron": "^15.0.0",
+    "electron-builder": "^22.11.7",
+    "electron-devtools-installer": "^3.2.0",
+    "postcss": "^8.3.5",
+    "typescript": "^4.4.3"
+  }
+}
