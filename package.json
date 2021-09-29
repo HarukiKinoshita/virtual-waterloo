@@ -1,5 +1,5 @@
 {
-  "name": "music-lounge",
+  "name": "virtual-waterloo",
   "version": "1.0.0",
   "private": true,
   "main": "dist/main/index.js",
@@ -26,7 +26,8 @@
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
     "national-rail-darwin-promises": "^2.1.2",
-    "nuxt": "^2.15.8"
+    "nuxt": "^2.15.8",
+    "ticker-board": "^1.0.2"
   },
   "devDependencies": {
     "@nuxt/types": "2.15.3",

@@ -15,7 +15,7 @@
         <div>
           <span :class="`px-2 py-1 rounded ${getColour(train.lineName)}`">{{ train.lineName }}</span>
         </div>
-        <div class="font-semibold">
+        <div class="font-semibold create-ticker">
           {{ train.towards }}
         </div>
         <!-- <div>
@@ -32,6 +32,8 @@
 <script>
 import Vue from 'vue'
 import NuxtLogo from '../components/NuxtLogo.vue'
+import { TickerBoard } from 'ticker-board'
+
 // import Darwin from 'national-rail-darwin'
 var Rail = require('national-rail-darwin-promises')
 
@@ -61,6 +63,7 @@ export default {
     // .catch((error: any) => {
     //     // Handle errors
     // });
+    new TickerBoard('.create-ticker')
   },
   methods: {
     getColour(lineName) {
