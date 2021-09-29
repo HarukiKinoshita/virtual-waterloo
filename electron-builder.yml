@@ -1,6 +1,6 @@
-appId: com.nuxt-electron-music-lounge.app
+appId: com.nuxt-electron-virtual-waterloo.app
 copyright: HarukiKinoshita
-productName: nuxt-electron-music-lounge
+productName: nuxt-electron-virtual-waterloo
 
 asar: true
 

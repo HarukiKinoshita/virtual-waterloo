@@ -1,4 +1,4 @@
-# music-lounge
+# virtual-waterloo
 
 ## Build Setup
 

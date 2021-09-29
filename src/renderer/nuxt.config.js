@@ -17,7 +17,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'music-lounge',
+    title: 'virtual-waterloo',
     htmlAttrs: {
       lang: 'en'
     },
