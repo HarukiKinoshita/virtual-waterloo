@@ -1,0 +1,2120 @@
+{
+  "display_informations": {
+    "direction": "Amiens (Amiens)",
+    "code": "K10",
+    "network": "TER HDF",
+    "links": [],
+    "color": "",
+    "name": "K10",
+    "physical_mode": "TER / Intercités",
+    "headsign": "K10",
+    "label": "K10",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "848581",
+    "commercial_mode": "TER HDF",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:Train",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "87313874"
+          },
+          {
+            "type": "uic",
+            "value": "87313874"
+          }
+        ],
+        "name": "Amiens",
+        "links": [],
+        "coord": {
+          "lat": "49.890584",
+          "lon": "2.308277"
+        },
+        "label": "Amiens (Amiens)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:87313874"
+      },
+      "quality": 0,
+      "name": "Amiens (Amiens)",
+      "id": "stop_area:SNCF:87313874"
+    },
+    "name": "K10",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "K10",
+      "name": "K10",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:Train",
+          "name": "TER / Intercités"
+        }
+      ],
+      "codes": [],
+      "closing_time": "235000",
+      "opening_time": "053800",
+      "commercial_mode": {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      },
+      "id": "line:SNCF:FR:Line::4B0DFE2B-138B-455F-BCEF-0B57A660A95F:"
+    },
+    "id": "route:SNCF:FR:Line::4B0DFE2B-138B-455F-BCEF-0B57A660A95F:"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:FR:Line::4B0DFE2B-138B-455F-BCEF-0B57A660A95F:"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:848581:1187:Train"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:FR:Line::4B0DFE2B-138B-455F-BCEF-0B57A660A95F:"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:Train"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T190400",
+    "additional_informations": [],
+    "departure_date_time": "20210927T190400",
+    "base_arrival_date_time": "20210927T190400",
+    "base_departure_date_time": "20210927T190400",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Amiens (Amiens)",
+    "code": "C10",
+    "network": "TER HDF",
+    "links": [],
+    "color": "",
+    "name": "C10",
+    "physical_mode": "TER / Intercités",
+    "headsign": "C10",
+    "label": "C10",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "848529",
+    "commercial_mode": "TER HDF",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:Train",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "87313874"
+          },
+          {
+            "type": "uic",
+            "value": "87313874"
+          }
+        ],
+        "name": "Amiens",
+        "links": [],
+        "coord": {
+          "lat": "49.890584",
+          "lon": "2.308277"
+        },
+        "label": "Amiens (Amiens)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:87313874"
+      },
+      "quality": 0,
+      "name": "Amiens (Amiens)",
+      "id": "stop_area:SNCF:87313874"
+    },
+    "name": "C10",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "C10",
+      "name": "C10",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:Train",
+          "name": "TER / Intercités"
+        }
+      ],
+      "codes": [],
+      "closing_time": "224130",
+      "opening_time": "041700",
+      "commercial_mode": {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      },
+      "id": "line:SNCF:FR:Line::74E36C89-DC6A-4CE9-A1C7-CC8552AE882C:"
+    },
+    "id": "route:SNCF:FR:Line::74E36C89-DC6A-4CE9-A1C7-CC8552AE882C:"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:FR:Line::74E36C89-DC6A-4CE9-A1C7-CC8552AE882C:"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:848529:1187:Train"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:FR:Line::74E36C89-DC6A-4CE9-A1C7-CC8552AE882C:"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:Train"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T190700",
+    "additional_informations": [],
+    "departure_date_time": "20210927T190700",
+    "base_arrival_date_time": "20210927T190700",
+    "base_departure_date_time": "20210927T190700",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Beauvais (Beauvais)",
+    "code": "C17",
+    "network": "TER HDF",
+    "links": [],
+    "color": "",
+    "name": "C17",
+    "physical_mode": "TER / Intercités",
+    "headsign": "C17",
+    "label": "C17",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "847445",
+    "commercial_mode": "TER HDF",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:Train",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "87313510"
+          },
+          {
+            "type": "uic",
+            "value": "87313510"
+          }
+        ],
+        "name": "Beauvais",
+        "links": [],
+        "coord": {
+          "lat": "49.426522",
+          "lon": "2.088609"
+        },
+        "label": "Beauvais (Beauvais)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:87313510"
+      },
+      "quality": 0,
+      "name": "Beauvais (Beauvais)",
+      "id": "stop_area:SNCF:87313510"
+    },
+    "name": "C17",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Coach",
+        "name": "Autocar"
+      },
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "C17",
+      "name": "C17",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:Coach",
+          "name": "Autocar"
+        },
+        {
+          "id": "physical_mode:Train",
+          "name": "TER / Intercités"
+        }
+      ],
+      "codes": [],
+      "closing_time": "233600",
+      "opening_time": "051300",
+      "commercial_mode": {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      },
+      "id": "line:SNCF:FR:Line::439230F8-6729-42A9-8A9A-760F906CC1A4:"
+    },
+    "id": "route:SNCF:FR:Line::439230F8-6729-42A9-8A9A-760F906CC1A4:"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:FR:Line::439230F8-6729-42A9-8A9A-760F906CC1A4:"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:847445:1187:Train"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:FR:Line::439230F8-6729-42A9-8A9A-760F906CC1A4:"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:Train"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T190700",
+    "additional_informations": [],
+    "departure_date_time": "20210927T190700",
+    "base_arrival_date_time": "20210927T190700",
+    "base_departure_date_time": "20210927T190700",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Londres Saint Pancras (London)",
+    "code": "",
+    "network": "Eurostar",
+    "links": [],
+    "color": "",
+    "name": "Paris Gare du Nord - Londres Saint Pancras",
+    "physical_mode": "Train grande vitesse",
+    "headsign": "9055",
+    "label": "Paris Gare du Nord - Londres Saint Pancras",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "9055",
+    "commercial_mode": "Eurostar",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:EUROSTAR",
+        "name": "Eurostar"
+      },
+      {
+        "id": "commercial_mode:OUI",
+        "name": "TGV INOUI"
+      },
+      {
+        "id": "commercial_mode:THA",
+        "name": "Thalys"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:LongDistanceTrain",
+        "name": "Train grande vitesse"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:LongDistanceTrain",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "70154005"
+          },
+          {
+            "type": "uic",
+            "value": "70154005"
+          }
+        ],
+        "name": "Londres Saint Pancras",
+        "links": [],
+        "coord": {
+          "lat": "51.5338",
+          "lon": "-0.12807"
+        },
+        "label": "Londres Saint Pancras (London)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:70154005"
+      },
+      "quality": 0,
+      "name": "Londres Saint Pancras (London)",
+      "id": "stop_area:SNCF:70154005"
+    },
+    "name": "Paris Gare du Nord - Londres Saint Pancras",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:LongDistanceTrain",
+        "name": "Train grande vitesse"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "",
+      "name": "Paris Gare du Nord - Londres Saint Pancras",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:LongDistanceTrain",
+          "name": "Train grande vitesse"
+        }
+      ],
+      "codes": [],
+      "closing_time": "233900",
+      "opening_time": "071300",
+      "commercial_mode": {
+        "id": "commercial_mode:EUROSTAR",
+        "name": "Eurostar"
+      },
+      "id": "line:SNCF:0019-87271007-70154005"
+    },
+    "id": "route:SNCF:0019-87271007-70154005"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:0019-87271007-70154005"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:9055:0019:LongDistanceTrain"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:0019-87271007-70154005"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:EUROSTAR"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:LongDistanceTrain"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:EUROSTAR"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T191300",
+    "additional_informations": [],
+    "departure_date_time": "20210927T191300",
+    "base_arrival_date_time": "20210927T191300",
+    "base_departure_date_time": "20210927T191300",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Maubeuge (Maubeuge)",
+    "code": "K13",
+    "network": "TER HDF",
+    "links": [],
+    "color": "",
+    "name": "K13",
+    "physical_mode": "TER / Intercités",
+    "headsign": "K13",
+    "label": "K13",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "16471",
+    "commercial_mode": "TER HDF",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:Train",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "secondary_id",
+            "value": "SNCF:87271023"
+          },
+          {
+            "type": "source",
+            "value": "87271007"
+          },
+          {
+            "type": "source",
+            "value": "87271023"
+          },
+          {
+            "type": "uic",
+            "value": "87271007"
+          },
+          {
+            "type": "uic",
+            "value": "87271023"
+          }
+        ],
+        "name": "Paris Gare du Nord",
+        "links": [],
+        "coord": {
+          "lat": "48.880136",
+          "lon": "2.354851"
+        },
+        "label": "Paris Gare du Nord (Paris)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:87271007"
+      },
+      "quality": 0,
+      "name": "Paris Gare du Nord (Paris)",
+      "id": "stop_area:SNCF:87271007"
+    },
+    "name": "K13",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Coach",
+        "name": "Autocar"
+      },
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "K13",
+      "name": "K13",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:Train",
+          "name": "TER / Intercités"
+        },
+        {
+          "id": "physical_mode:Coach",
+          "name": "Autocar"
+        }
+      ],
+      "codes": [],
+      "closing_time": "221800",
+      "opening_time": "053200",
+      "commercial_mode": {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      },
+      "id": "line:SNCF:FR:Line::9B25AB24-D245-4F3C-A70C-73EAF225FF0E:"
+    },
+    "id": "route:SNCF:FR:Line::9B25AB24-D245-4F3C-A70C-73EAF225FF0E:"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:FR:Line::9B25AB24-D245-4F3C-A70C-73EAF225FF0E:"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:16471:1187:Train"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:FR:Line::9B25AB24-D245-4F3C-A70C-73EAF225FF0E:"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:Train"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T191900",
+    "additional_informations": [],
+    "departure_date_time": "20210927T191900",
+    "base_arrival_date_time": "20210927T191900",
+    "base_departure_date_time": "20210927T191900",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Amsterdam Centraal (Amsterdam)",
+    "code": "",
+    "network": "Thalys",
+    "links": [],
+    "color": "",
+    "name": "Paris Gare du Nord - Amsterdam Centraal",
+    "physical_mode": "Train grande vitesse",
+    "headsign": "9381",
+    "label": "Paris Gare du Nord - Amsterdam Centraal",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "9381",
+    "commercial_mode": "Thalys",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:EUROSTAR",
+        "name": "Eurostar"
+      },
+      {
+        "id": "commercial_mode:OUI",
+        "name": "TGV INOUI"
+      },
+      {
+        "id": "commercial_mode:THA",
+        "name": "Thalys"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:LongDistanceTrain",
+        "name": "Train grande vitesse"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:LongDistanceTrain",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "84000588"
+          },
+          {
+            "type": "uic",
+            "value": "84000588"
+          }
+        ],
+        "name": "Amsterdam Centraal",
+        "links": [],
+        "coord": {
+          "lat": "52.37908",
+          "lon": "4.900632"
+        },
+        "label": "Amsterdam Centraal (Amsterdam) (Amsterdam)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:84000588"
+      },
+      "quality": 0,
+      "name": "Amsterdam Centraal (Amsterdam) (Amsterdam)",
+      "id": "stop_area:SNCF:84000588"
+    },
+    "name": "Paris Gare du Nord - Amsterdam Centraal",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:LongDistanceTrain",
+        "name": "Train grande vitesse"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "",
+      "name": "Paris Gare du Nord - Amsterdam Centraal",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:LongDistanceTrain",
+          "name": "Train grande vitesse"
+        }
+      ],
+      "codes": [],
+      "closing_time": "234400",
+      "opening_time": "061300",
+      "commercial_mode": {
+        "id": "commercial_mode:THA",
+        "name": "Thalys"
+      },
+      "id": "line:SNCF:0018-87271007-84000588"
+    },
+    "id": "route:SNCF:0018-87271007-84000588"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:0018-87271007-84000588"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:9381:0018:LongDistanceTrain"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:0018-87271007-84000588"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:THA"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:LongDistanceTrain"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:THA"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T192500",
+    "additional_informations": [],
+    "departure_date_time": "20210927T192500",
+    "base_arrival_date_time": "20210927T192500",
+    "base_departure_date_time": "20210927T192500",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Bruxelles Midi (Saint-Gilles - Sint-Gillis)",
+    "code": "",
+    "network": "Thalys",
+    "links": [],
+    "color": "",
+    "name": "Paris Gare du Nord - Bruxelles Midi",
+    "physical_mode": "Train grande vitesse",
+    "headsign": "9481",
+    "label": "Paris Gare du Nord - Bruxelles Midi",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "9481",
+    "commercial_mode": "Thalys",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:EUROSTAR",
+        "name": "Eurostar"
+      },
+      {
+        "id": "commercial_mode:OUI",
+        "name": "TGV INOUI"
+      },
+      {
+        "id": "commercial_mode:THA",
+        "name": "Thalys"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:LongDistanceTrain",
+        "name": "Train grande vitesse"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:LongDistanceTrain",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "88140010"
+          },
+          {
+            "type": "uic",
+            "value": "88140010"
+          }
+        ],
+        "name": "Bruxelles Midi",
+        "links": [],
+        "coord": {
+          "lat": "50.836",
+          "lon": "4.336"
+        },
+        "label": "Bruxelles Midi (Saint-Gilles - Sint-Gillis)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:88140010"
+      },
+      "quality": 0,
+      "name": "Bruxelles Midi (Saint-Gilles - Sint-Gillis)",
+      "id": "stop_area:SNCF:88140010"
+    },
+    "name": "Paris Gare du Nord - Bruxelles Midi",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:LongDistanceTrain",
+        "name": "Train grande vitesse"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "",
+      "name": "Paris Gare du Nord - Bruxelles Midi",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:LongDistanceTrain",
+          "name": "Train grande vitesse"
+        }
+      ],
+      "codes": [],
+      "closing_time": "231700",
+      "opening_time": "074300",
+      "commercial_mode": {
+        "id": "commercial_mode:THA",
+        "name": "Thalys"
+      },
+      "id": "line:SNCF:0018-87271007-88140010"
+    },
+    "id": "route:SNCF:0018-87271007-88140010"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:0018-87271007-88140010"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:9481:0018:LongDistanceTrain"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:0018-87271007-88140010"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:THA"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:LongDistanceTrain"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:THA"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T192500",
+    "additional_informations": [],
+    "departure_date_time": "20210927T192500",
+    "base_arrival_date_time": "20210927T192500",
+    "base_departure_date_time": "20210927T192500",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Calais Ville (Calais)",
+    "code": "K16",
+    "network": "TER HDF",
+    "links": [],
+    "color": "",
+    "name": "K16",
+    "physical_mode": "TER / Intercités",
+    "headsign": "K16",
+    "label": "K16",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "16372",
+    "commercial_mode": "TER HDF",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:Train",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "87317263"
+          },
+          {
+            "type": "uic",
+            "value": "87317263"
+          }
+        ],
+        "name": "Calais Ville",
+        "links": [],
+        "coord": {
+          "lat": "50.953466",
+          "lon": "1.850885"
+        },
+        "label": "Calais Ville (Calais)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:87317263"
+      },
+      "quality": 0,
+      "name": "Calais Ville (Calais)",
+      "id": "stop_area:SNCF:87317263"
+    },
+    "name": "K16",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "K16",
+      "name": "K16",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:Train",
+          "name": "TER / Intercités"
+        }
+      ],
+      "codes": [],
+      "closing_time": "222900",
+      "opening_time": "063600",
+      "commercial_mode": {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      },
+      "id": "line:SNCF:FR:Line::cf0d9ce8-bf4e-448e-8bf0-6c965a95c788:"
+    },
+    "id": "route:SNCF:FR:Line::cf0d9ce8-bf4e-448e-8bf0-6c965a95c788:"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:FR:Line::cf0d9ce8-bf4e-448e-8bf0-6c965a95c788:"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:16372:1187:Train"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:FR:Line::cf0d9ce8-bf4e-448e-8bf0-6c965a95c788:"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:Train"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T193100",
+    "additional_informations": [],
+    "departure_date_time": "20210927T193100",
+    "base_arrival_date_time": "20210927T193100",
+    "base_departure_date_time": "20210927T193100",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Laon (Laon)",
+    "code": "K15",
+    "network": "TER HDF",
+    "links": [],
+    "color": "",
+    "name": "K15",
+    "physical_mode": "TER / Intercités",
+    "headsign": "K15",
+    "label": "K15",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "849951",
+    "commercial_mode": "TER HDF",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:Train",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "87296012"
+          },
+          {
+            "type": "uic",
+            "value": "87296012"
+          }
+        ],
+        "name": "Laon",
+        "links": [],
+        "coord": {
+          "lat": "49.570578",
+          "lon": "3.62434"
+        },
+        "label": "Laon (Laon)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:87296012"
+      },
+      "quality": 0,
+      "name": "Laon (Laon)",
+      "id": "stop_area:SNCF:87296012"
+    },
+    "name": "K15",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "K15",
+      "name": "K15",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:Train",
+          "name": "TER / Intercités"
+        }
+      ],
+      "codes": [],
+      "closing_time": "230500",
+      "opening_time": "050800",
+      "commercial_mode": {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      },
+      "id": "line:SNCF:FR:Line::FF19AB6A-7290-4100-83A1-CFDFB0D626F1:"
+    },
+    "id": "route:SNCF:FR:Line::FF19AB6A-7290-4100-83A1-CFDFB0D626F1:"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:FR:Line::FF19AB6A-7290-4100-83A1-CFDFB0D626F1:"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:849951:1187:Train"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:FR:Line::FF19AB6A-7290-4100-83A1-CFDFB0D626F1:"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:Train"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T193400",
+    "additional_informations": [],
+    "departure_date_time": "20210927T193400",
+    "base_arrival_date_time": "20210927T193400",
+    "base_departure_date_time": "20210927T193400",
+    "data_freshness": "base_schedule"
+  }
+},
+{
+  "display_informations": {
+    "direction": "Saint-Quentin (Saint-Quentin)",
+    "code": "K14",
+    "network": "TER HDF",
+    "links": [],
+    "color": "",
+    "name": "K14",
+    "physical_mode": "TER / Intercités",
+    "headsign": "K14",
+    "label": "K14",
+    "equipments": [],
+    "text_color": "",
+    "trip_short_name": "847945",
+    "commercial_mode": "TER HDF",
+    "description": ""
+  },
+  "stop_point": {
+    "commercial_modes": [
+      {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      }
+    ],
+    "name": "Paris Gare du Nord",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "coord": {
+      "lat": "48.880136",
+      "lon": "2.354851"
+    },
+    "label": "Paris Gare du Nord (Paris)",
+    "equipments": [],
+    "administrative_regions": [
+      {
+        "insee": "75056",
+        "name": "Paris",
+        "level": 8,
+        "coord": {
+          "lat": "48.8566969",
+          "lon": "2.3514616"
+        },
+        "label": "Paris (75000-75116)",
+        "id": "admin:fr:75056",
+        "zip_code": "75000;75116"
+      }
+    ],
+    "id": "stop_point:SNCF:87271007:Train",
+    "stop_area": {
+      "codes": [
+        {
+          "type": "secondary_id",
+          "value": "SNCF:87271023"
+        },
+        {
+          "type": "source",
+          "value": "87271007"
+        },
+        {
+          "type": "source",
+          "value": "87271023"
+        },
+        {
+          "type": "uic",
+          "value": "87271007"
+        },
+        {
+          "type": "uic",
+          "value": "87271023"
+        }
+      ],
+      "name": "Paris Gare du Nord",
+      "links": [],
+      "coord": {
+        "lat": "48.880136",
+        "lon": "2.354851"
+      },
+      "label": "Paris Gare du Nord (Paris)",
+      "administrative_regions": [
+        {
+          "insee": "75056",
+          "name": "Paris",
+          "level": 8,
+          "coord": {
+            "lat": "48.8566969",
+            "lon": "2.3514616"
+          },
+          "label": "Paris (75000-75116)",
+          "id": "admin:fr:75056",
+          "zip_code": "75000;75116"
+        }
+      ],
+      "timezone": "Europe/Paris",
+      "id": "stop_area:SNCF:87271007"
+    }
+  },
+  "route": {
+    "direction": {
+      "embedded_type": "stop_area",
+      "stop_area": {
+        "codes": [
+          {
+            "type": "source",
+            "value": "87296004"
+          },
+          {
+            "type": "uic",
+            "value": "87296004"
+          }
+        ],
+        "name": "Saint-Quentin",
+        "links": [],
+        "coord": {
+          "lat": "49.840025",
+          "lon": "3.296958"
+        },
+        "label": "Saint-Quentin (Saint-Quentin)",
+        "timezone": "Europe/Paris",
+        "id": "stop_area:SNCF:87296004"
+      },
+      "quality": 0,
+      "name": "Saint-Quentin (Saint-Quentin)",
+      "id": "stop_area:SNCF:87296004"
+    },
+    "name": "K14",
+    "links": [],
+    "physical_modes": [
+      {
+        "id": "physical_mode:Coach",
+        "name": "Autocar"
+      },
+      {
+        "id": "physical_mode:Train",
+        "name": "TER / Intercités"
+      }
+    ],
+    "is_frequence": "False",
+    "geojson": {
+      "type": "MultiLineString",
+      "coordinates": []
+    },
+    "direction_type": "forward",
+    "line": {
+      "code": "K14",
+      "name": "K14",
+      "links": [],
+      "color": "",
+      "geojson": {
+        "type": "MultiLineString",
+        "coordinates": []
+      },
+      "text_color": "",
+      "physical_modes": [
+        {
+          "id": "physical_mode:Train",
+          "name": "TER / Intercités"
+        },
+        {
+          "id": "physical_mode:Coach",
+          "name": "Autocar"
+        }
+      ],
+      "codes": [],
+      "closing_time": "011700",
+      "opening_time": "044600",
+      "commercial_mode": {
+        "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:",
+        "name": "TER HDF"
+      },
+      "id": "line:SNCF:FR:Line::85C46941-D838-4F3D-821F-CA69C7168ADF:"
+    },
+    "id": "route:SNCF:FR:Line::85C46941-D838-4F3D-821F-CA69C7168ADF:"
+  },
+  "links": [
+    {
+      "type": "line",
+      "id": "line:SNCF:FR:Line::85C46941-D838-4F3D-821F-CA69C7168ADF:"
+    },
+    {
+      "type": "vehicle_journey",
+      "id": "vehicle_journey:SNCF:2021-09-27:847945:1187:Train"
+    },
+    {
+      "type": "route",
+      "id": "route:SNCF:FR:Line::85C46941-D838-4F3D-821F-CA69C7168ADF:"
+    },
+    {
+      "type": "commercial_mode",
+      "id": "commercial_mode:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    },
+    {
+      "type": "physical_mode",
+      "id": "physical_mode:Train"
+    },
+    {
+      "type": "network",
+      "id": "network:SNCF:FR:Branding::6dfb1ec4-50b5-42a8-a531-a792b1ea6f2e:"
+    }
+  ],
+  "stop_date_time": {
+    "links": [],
+    "arrival_date_time": "20210927T193400",
+    "additional_informations": [],
+    "departure_date_time": "20210927T193400",
+    "base_arrival_date_time": "20210927T193400",
+    "base_departure_date_time": "20210927T193400",
+    "data_freshness": "base_schedule"
+  }
+}

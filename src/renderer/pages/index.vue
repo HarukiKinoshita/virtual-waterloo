@@ -1,13 +1,14 @@
 <template>
-  <section class="px-auto p-10">
-    <NuxtLogo class="mx-auto py-4" />
-    <h1 class="text-2xl text-center font-light">Virtual Waterloo</h1>
+  <section class="px-auto bg-natural-lightest dark:bg-natural-darkest text-natural-darkest dark:text-natural-light">
+    <!-- <NuxtLogo class="mx-auto py-4" /> -->
+    <div class="sticky top-0 h-20 p-4 z-20 bg-natural-lightest dark:bg-natural-darkest">
+      <h1 class="text-3xl font-serif text-center font-semibold">King's Cross St. Pancras</h1>
+    </div>
     <!-- <div class="flex flex-col items-center my-4">
       <a class="px-4 py-2 border rounded-full bg-white hover:bg-gray-50" href="#kingscross">King's Cross St. Pancras</a>
       <a class="px-4 py-2 border rounded-full bg-white hover:bg-gray-50" href="#victoria">Victoria</a>
     </div> -->
-    <p class="text-xl font-semibold text-center mt-12 mb-4">King's Cross St. Pancras</p>
-    <div v-for="(train, i) in data" :key="i" class="max-w-6xl mx-auto">
+    <div v-for="(train, i) in data" :key="i" class="max-w-6xl mx-auto font-mono">
       <div class="py-3 grid grid-cols-4">
         <div>
           {{ new Date(train.expectedArrival).toLocaleTimeString() }}
@@ -32,7 +33,6 @@
 <script>
 import Vue from 'vue'
 import NuxtLogo from '../components/NuxtLogo.vue'
-import { TickerBoard } from 'ticker-board'
 
 // import Darwin from 'national-rail-darwin'
 var Rail = require('national-rail-darwin-promises')
@@ -44,11 +44,11 @@ export default {
   data() {
     return {
       lineColours: [
-        { lineName: 'Circle', lineColour: 'bg-yellow-200' },
-        { lineName: 'Victoria', lineColour: 'bg-blue-200' },
+        { lineName: 'Circle', lineColour: 'bg-yellow-200 text-black' },
+        { lineName: 'Victoria', lineColour: 'bg-blue-200 text-black' },
         { lineName: 'Northern', lineColour: 'bg-gray-800 text-white' },
         { lineName: 'Piccadilly', lineColour: 'bg-blue-800 text-white' },
-        { lineName: 'Hammersmith & City', lineColour: 'bg-pink-200' },
+        { lineName: 'Hammersmith & City', lineColour: 'bg-pink-200 text-black' },
         { lineName: 'Metropolitan', lineColour: 'bg-purple-800 text-white' },
       ]
     }
@@ -63,7 +63,6 @@ export default {
     // .catch((error: any) => {
     //     // Handle errors
     // });
-    new TickerBoard('.create-ticker')
   },
   methods: {
     getColour(lineName) {
